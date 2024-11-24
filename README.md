@@ -4,6 +4,38 @@ The task involves creating a simple and responsive QR code card design using HTM
 
 ![png (8)](https://github.com/user-attachments/assets/b3012f61-9a46-4527-865d-0d980904d49a)
 ---
+### How to Generate a Free QR Code  
+
+To create the QR code for your project, you can use any free online QR code generator. Here's a simple guide:  
+
+1. **Visit a Free QR Code Generator Website**:  
+   Use a website like [QR Code Generator](https://www.qr-code-generator.com/) or [QR Code Monkey](https://www.qrcode-monkey.com/).  
+
+2. **Input Your Data**:  
+   - Enter the link, text, or information you want the QR code to encode.  
+   - For example, if you want the QR code to link to your Instagram page, paste your Instagram URL.  
+
+3. **Customize the QR Code (Optional)**:  
+   - Some generators allow you to add colors, logos, or other design elements to the QR code.  
+   - Ensure that the QR code remains scannable after customization.  
+
+4. **Download the QR Code**:  
+   - Select the desired file format (e.g., PNG, SVG) and click the download button.  
+   - Save the QR code image to your project directory.  
+
+5. **Add the QR Code to Your Project**:  
+   - Place the downloaded QR code image in the `images` folder of your project.  
+   - Reference it in your HTML code, as shown below:  
+   ```html
+   <img src="images/your-qrcode.png" alt="QR code image" />
+   ```  
+
+### Example QR Code Generators  
+- **[QR Code Generator](https://www.qr-code-generator.com/)** – Simple and easy to use.  
+- **[QR Code Monkey](https://www.qrcode-monkey.com/)** – Offers customization options like logos and colors.  
+- **[GoQR.me](https://goqr.me/)** – Straightforward and efficient.  
+
+Use any of these tools to quickly create a free QR code for your assignment.
 
 #### **1. Setting Up the HTML**  
 Edit the `index.html` file by following these steps:  
